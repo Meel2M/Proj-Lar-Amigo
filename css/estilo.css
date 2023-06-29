@@ -1,0 +1,90 @@
+/* topo  */
+/* css inicio */
+header .logo {
+    background-color: rgb(67, 246, 243);
+    text-align:start;
+    height: 70px;
+    display: flex;
+}
+header .menu  button{
+    background-color:rgb(67, 246, 243);
+    /* background-color = cor de fundo */
+    /* flexbox */
+    display: flex;
+    /* ativar flexbox */
+    justify-content:center;
+    /* centralizar na horizontal */ 
+    align-items:flex-end;
+}
+header .menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 10px 500px;
+    display: flex;
+    justify-content: center;
+}
+header .menu ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    /* padding = espaçamento interno | 10px pra cima e pra baixo, 15px pras laterais */
+    font-size: 25px;
+}
+header .menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+/* Quem somos */
+main section.banner-fundo {
+    height: 600px; /* altura*/
+    background-image: url(../imagens/fundo.jpg); /*imagem de fundo*/
+    background-repeat: no-repeat; /*não repetir foto*/
+    background-size: cover; /* imagem vai cobrir todo o elemento section */
+    background-position: center;
+    margin: 0;
+    padding: 0 0;
+}
+
+main section.banner-fundo .container h2{
+    display: flex;
+    justify-content: flex-start;
+    /* alinhamento horizontal pra direita */
+    font-size: 40px;
+    /* altura */
+    margin: 0;
+    padding: 0 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36); /* sombra no texto */
+    color: white;
+}
+
+main section.banner-fundo .container h6{
+    color:white;
+    font-size: 25px;
+    margin: 5px;
+    padding: 3px 30px;
+}
+
+footer {
+    background-color: rgb(67, 246, 243);
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+}
+
+footer .container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0;
+    color: black;
+}
+/* css contato */
+
+/* css pets */
